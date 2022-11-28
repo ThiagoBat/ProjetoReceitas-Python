@@ -154,5 +154,7 @@ for i, j in itertools.product(range(bamboo_confusion_matrix.shape[0]), range(bam
 plt.tight_layout()
 plt.ylabel('True label')
 plt.xlabel('Predicted label')
-
 plt.show()
+#Cada linha representa a verdadeira cozinha e as colunas representam as predições
+#Observações: 60% da cozinha chinesa foi corretamente classificada, 36,7% foi classificada erroneamente como coreana e 3,3% como japonesa;
+#90% da cozinha indiana foi corretamente classificada e 10% foi classificado erroneamente como coreana; e assim sucessivamente.
